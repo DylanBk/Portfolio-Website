@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dylan's Portfolio</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="navbarItem" href="index.html">Home</a>
+            <a class="navbarItem-Alt">About</a>
+            <a class="navbarItem" href="future.html">Aspirations</a>
+            <div class="navbarItem" onclick="openPopup();">
+                <div id="myOverlay" class="overlay"></div>
+                Contact Details
+            </div>
+            <span id="myPopup" class="popupText">
+                <p>Email me:
+                    <a href="mailto:dylan.bullock.965@accesscreative.ac.uk">
+                    dylan.bullock.965@accesscreative.ac.uk
+                    </a>
+                </p>
+            </span>
+        </div>
+
+        <div class="container">
+            <div class="aboutMe">
+                <article>
+                    <h2>Who am I?</h2>
+                    <p>My name is Dylan, I'm 16 years old, and currently attending Access Creative College as a Software Development student.</p>
+                </article>
+                <article>
+                    <h2>Where am I from?</h2>
+                    <p>Born in Norwich, I now also attend college here.</p>
+                </article>
+                <article>
+                    <h2>What am I interested in?</h2>
+                    <p>I enjoy programming, listening to music, going to the gym,
+                learning, and cooking. Recently I have been getting into
+                making websites, although as of now I can only do front-end development,
+                I hope to learn the back-end soon. Although I have little experience,
+                I am always keen to learn more.</p>
+                </article>
+                <article>
+                    <h2>What do I hope to do in the future?</h2>
+                    <a href="future.html">Find out here</a>
+                </article>
+            </div>
+            <div class="aboutMe2">
+                <h2>Norwich</h2>
+                <iframe height="300" width="300" style="border: solid 3px #80808050; border-radius: 3px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77473.47741171137!2d1.204093392905856!3d52.64107889042552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d0aad55133f513%3A0x684ca5e00e12452f!2sNorwich!5e0!3m2!1sen!2suk!4v1705275563347!5m2!1sen!2suk" target="_blank" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a class="footerItem" href="index.html">home</a>
+            <button class="footerItem" onclick="openPopup()">contact me</button>
+            <a class="footerItem" href="about.html">about me</a>
+            <a class="footerItem" href="https://github.com/DylanBk" target="_blank">my Github</a>
+            <a class="footerItem" href="future.html">my aspirations</a>
+        </div>
+    </body>
+</html>

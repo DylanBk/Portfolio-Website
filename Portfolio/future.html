@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="myScript.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dylan's Portfolio</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="navbarItem" href="index.html">Home</a>
+            <a class="navbarItem" href="about.html">About</a>
+            <a class="navbarItem-Alt">Aspirations</a>
+            <div class="navbarItem" onclick="openPopup();">
+                <div id="myOverlay" class="overlay"></div>
+                Contact Details
+            </div>
+            <span id="myPopup" class="popupText">
+                <p>Email me:
+                    <a href="mailto:dylan.bullock.965@accesscreative.ac.uk">
+                    dylan.bullock.965@accesscreative.ac.uk
+                    </a>
+                </p>
+            </span>
+        </div>
+
+        <div class="futureContainer">
+            <div class="futureLeft">
+                <h2>What do I want to do after College?</h2>
+                <p>After I finish college, I hope to enter an
+apprenticeship or university. I would be open to an apprenticeship
+because I will gain an abundance of practical experience and be put
+straight into the workplace. I would also be open to university as
+I would gather a vast amount of knowledge and qualifications. I will
+have to attend university using student loans. 
+Although hopefully, I can get a well-paying job
+afterwards to pay them off or find an employer that helps pay off
+student loans as a benefit for working for them.</p>
+            </div>
+            <div class="futureMiddle">
+                <h2>What do I want to do after education?</h2>
+                <p>After I complete my education, I hope to get
+a job in the industry quickly. It doesn't have to be exactly what
+I want as long as it pays enough for me to be financially secure.
+I'm not entirely sure what I want to do yet.</p>
+            </div>
+            <div class="futureRight">
+                <h2>Where do I want my career to lead?</h2>
+                <p>Eventually, I hope to be in a well-paying job
+and live comfortably. At the moment, I am interested in web
+development and have been improving my front-end development skills.
+Later on, I will learn JavaScript and other web-based languages so
+that I can work on the back end of websites. Game development has
+also piqued my interest, although having looked into it, a lot of
+game developers get overworked and underpaid.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <a class="footerItem" href="index.html">home</a>
+            <button class="footerItem" onclick="openPopup()">contact me</button>
+            <a class="footerItem" href="about.html">about me</a>
+            <a class="footerItem" href="https://github.com/DylanBk" target="_blank">my Github</a>
+            <a class="footerItem" href="future.html">my aspirations</a>
+        </div>
+    </body>
+</html>
+
+<!--
+future work
+after college
+after education
+-->
